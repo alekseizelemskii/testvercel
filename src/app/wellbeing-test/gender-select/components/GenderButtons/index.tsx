@@ -3,7 +3,6 @@
 import QuizButton from '@/app/wellbeing-test/components/QuizButton/QuizButton';
 import {
   FUNNEL_ROUTES,
-  LOCAL_STORAGE_KEYS,
 } from '@/app/wellbeing-test/constants';
 import { GENDERS } from '@/utils/constants';
 import React from 'react';
@@ -29,7 +28,7 @@ export default function GenderButtons() {
         // });
         // analytics.logUserProperty('gender', GenderEnum[value]);
         // analytics.logSuperEventProperty('funnel_type', GenderEnum[value]);
-        localStorage.setItem(LOCAL_STORAGE_KEYS.UserGender, value);
+        // localStorage.setItem(LOCAL_STORAGE_KEYS.UserGender, value);
       }
       router.push(FUNNEL_ROUTES.AGE_SELECT);
     }, 400);

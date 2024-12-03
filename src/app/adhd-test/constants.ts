@@ -14,6 +14,11 @@ export const FUNNEL_ROUTES = Object.freeze({
   PLAN: `${BASE_ROUTE}/plan/`,
   GUIDE_OFFER: `${BASE_ROUTE}/guide-offer/`,
 });
+
+export const COOKIE_KEYS = Object.freeze({
+  USER_GENDER: 'user-gender',
+  USER_AGE_RANGE: 'user-age-range',
+});
 export const LOCAL_STORAGE_KEYS = Object.freeze({
   URL_PARAMS: 'url_params',
   USER_CONSENT: 'user_consent',

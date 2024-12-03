@@ -70,6 +70,10 @@
   width: 90%;
   bottom: 20px;
 
+  button {
+    margin: auto;
+  }
+
   p {
     @include body3;
     color: #95A5F5;

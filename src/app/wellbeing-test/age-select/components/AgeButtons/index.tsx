@@ -3,7 +3,6 @@
 import QuizButton from '@/app/wellbeing-test/components/QuizButton/QuizButton';
 import {
   FUNNEL_ROUTES,
-  LOCAL_STORAGE_KEYS,
 } from '@/app/wellbeing-test/constants';
 import { AGE_RANGE } from '@/utils/constants';
 import React from 'react';
@@ -28,7 +27,7 @@ export default function AgeButtons() {
     setTimeout(() => {
       if (target) {
         // dispatch(setAge(AgeRange[value]));
-        localStorage.setItem(LOCAL_STORAGE_KEYS.AgeRange, value);
+        // localStorage.setItem(LOCAL_STORAGE_KEYS.AgeRange, value);
         // analytics.logUserProperty('age', AgeRange[value]);
         // analytics.logSuperEventProperty('age', AgeRange[value]);
       }

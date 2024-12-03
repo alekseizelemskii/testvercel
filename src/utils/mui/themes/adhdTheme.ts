@@ -23,6 +23,7 @@ const themeOptions = {
           alignItems: 'center',
           justifyContent: 'center',
           width: '100%',
+          maxWidth: '400px',
           textTransform: 'none',
           color: '#FFF',
           fontSize: '18px',

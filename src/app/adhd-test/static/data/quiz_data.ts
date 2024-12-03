@@ -1,4 +1,3 @@
-import { LOCAL_STORAGE_KEYS } from '@/app/adhd-test/constants';
 import quiz_data from '@/app/adhd-test/static/data/quiz_data.json';
 
 export interface Category {
@@ -44,18 +43,18 @@ interface QuizData {
   steps: Step[];
 }
 
-export const getFirstQuizSlug = () => {
-  const gender = localStorage.getItem(LOCAL_STORAGE_KEYS.USER_GENDER) ?? '';
-  const femaleSlug = QUIZ_STEPS.find(
-    (i) => i.number === 1 && i.conditionTag === 'female'
-  ).slug;
-
-  const maleSlug = QUIZ_STEPS.find(
-    (i) => i.number === 1 && i.conditionTag === 'male'
-  ).slug;
-
-  return gender.toLowerCase() === 'female' ? femaleSlug : maleSlug;
-};
+// export const getFirstQuizSlug = () => {
+//   const gender = localStorage.getItem(LOCAL_STORAGE_KEYS.USER_GENDER) ?? '';
+//   const femaleSlug = QUIZ_STEPS.find(
+//     (i) => i.number === 1 && i.conditionTag === 'female'
+//   ).slug;
+//
+//   const maleSlug = QUIZ_STEPS.find(
+//     (i) => i.number === 1 && i.conditionTag === 'male'
+//   ).slug;
+//
+//   return gender.toLowerCase() === 'female' ? femaleSlug : maleSlug;
+// };
 export const QUIZ_DATA: QuizData = quiz_data;
 
 export const OVERALL_STEPS: number = QUIZ_DATA.overallSteps;

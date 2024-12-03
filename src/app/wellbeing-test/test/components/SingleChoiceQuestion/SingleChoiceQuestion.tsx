@@ -52,7 +52,8 @@ const SingleChoiceQuestion: React.FC = () => {
 
         console.log(`Question ${number}: score ${value}`);
         if (category === 'Final Question' && answer) {
-          localStorage.setItem('final_answer', answer);
+          console.log(true);
+          // localStorage.setItem('final_answer', answer);
         }
 
         // analytics.logEvent(Event.STEP_TEST_COMPLETED, {

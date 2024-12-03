@@ -1,6 +1,5 @@
 'use client';
 
-import { LOCAL_STORAGE_KEYS } from '@/app/adhd-test/constants';
 import { ScreenType } from '@/app/adhd-test/static/data/quiz_data';
 import end_section_desktop_bg from '@/app/adhd-test/static/images/end_section/end_section_screen_desktop.png';
 import {
@@ -11,6 +10,7 @@ import {
 import BackgroundImage from '@/app/wellbeing-test/components/BackgroundImage/BackgroundImage';
 import BackgroundColor from '@/components/BackgroundColor';
 import PrimaryButton from '@/components/PrimaryButton';
+import { useAppSelector } from '@/utils/redux/store';
 import React from 'react';
 import Image, { StaticImageData } from 'next/image';
 
@@ -26,7 +26,8 @@ export default function EndSectionScreen({
   screenType,
   nextSlug,
 }: EndSectionScreenProps) {
-  const gender = localStorage.getItem(LOCAL_STORAGE_KEYS.USER_GENDER);
+  const { gender } = useAppSelector((state) => state.adhdTest);
+
   const isFemale = gender.toLowerCase() === 'female';
   const image = getCurrentImage(screenType, isFemale);
   const subtitle = getCurrentSubtitle(screenType, isFemale);
