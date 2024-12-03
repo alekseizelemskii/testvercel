@@ -1,0 +1,64 @@
+@import 'src/styles/base/mixins';
+
+.container {
+  @include flex-column;
+  @include flex-center;
+  padding: 40px 20px;
+
+  .title {
+    @include h2;
+  }
+
+  .subtitle {
+    @include flex-row;
+    justify-content: space-between;
+    width: 60%;
+    margin: 40px 0 30px 0;
+
+    div {
+      @include flex-row;
+      @include flex-center-vertical;
+
+      p {
+        @include body5;
+        color: #615E83;
+        text-align: left;
+      }
+    }
+  }
+
+  .items {
+    @include flex-column;
+    margin-top: 30px;
+    gap: 12px;
+
+    .item {
+      @include flex-row;
+      @include flex-center-vertical;
+      gap: 12px;
+      padding: 14px 12px;
+      border-radius: 14px;
+      background: #ECEFFF;
+
+
+      p {
+        @include body4;
+        text-align: left;
+
+        span {
+          font-weight: 800;
+          color: #5B71E1;
+        }
+      }
+    }
+  }
+}
+
+.button {
+  position: fixed;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+

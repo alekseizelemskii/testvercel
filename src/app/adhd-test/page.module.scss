@@ -1,0 +1,31 @@
+@import 'src/styles/base/mixins';
+
+.cloudImg {
+    z-index: -900;
+    position: absolute;
+    left: -140px;
+    top: 150px;
+  box-shadow: #282b56;
+}
+
+.container {
+  padding: 95px 20px 0 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.mainImg {
+  margin-bottom: 65px;
+
+}
+
+.title {
+  @include h1;
+}
+.subtitle {
+  @include body3;
+  margin: 12px 0 76px 0;
+}

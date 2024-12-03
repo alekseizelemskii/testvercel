@@ -1,0 +1,624 @@
+{
+  "screens": [
+    {
+      "screenType": "single-choice",
+      "question": "Which statement better describes your approach to life?",
+      "category": "About you",
+      "number": 1,
+      "numberInCategory": 1,
+      "answers": [
+        {
+          "text": "I don't take life too seriously",
+          "score": "E, C"
+        },
+        {
+          "text": "Life isn't a walk in the park",
+          "score": "D, T"
+        }
+      ],
+      "answerDesign": "without image",
+      "scoreTag": "mental_profile",
+      "questionImage": "question-1"
+    },
+    {
+      "screenType": "single-choice",
+      "question": "Is it typical for you to experience shifts in mood?",
+      "category": "About you",
+      "number": 2,
+      "numberInCategory": 2,
+      "answers": [
+        {
+          "text": "Not really",
+          "score": "C"
+        },
+        {
+          "text": "Sometimes",
+          "score": "E"
+        },
+        {
+          "text": "It happens often",
+          "score": "D"
+        },
+        {
+          "text": "Yes, that's so me",
+          "score": "T"
+        }
+      ],
+      "answerDesign": "without image",
+      "scoreTag": "mental_profile",
+      "questionImage": "question-2"
+    },
+    {
+      "screenType": "multiple-choice",
+      "question": "When people offer criticism about you or your work, you...",
+      "category": "About you",
+      "number": 3,
+      "numberInCategory": 3,
+      "answers": [
+        {
+          "text": "I'm offended by their audacity to make remarks about me",
+          "score": "T, D"
+        },
+        {
+          "text": "Don't overthink it — just learn a lesson and move on",
+          "score": "E,D,T ,C"
+        },
+        {
+          "text": "Reflect on and assess if it's constructive before reacting",
+          "score": "E,D,T ,C"
+        },
+        {
+          "text": "Discuss it with others to gain different perspectives",
+          "score": "E,D"
+        },
+        {
+          "text": "Use it as motivation to grow in something I care about",
+          "score": "E,D,T, C"
+        },
+        {
+          "text": "Thank them for the feedback, whether positive or negative",
+          "score": "E,D,T ,C"
+        },
+        {
+          "text": "Seek clarification to better understand the criticism",
+          "score": "T, D"
+        }
+      ],
+      "answerDesign": "without image",
+      "scoreTag": "mental_profile",
+      "questionImage": "question-3"
+    },
+    {
+      "screenType": "single-choice",
+      "question": "Have you felt in harmony with yourself and your circle in recent months?",
+      "category": "About you",
+      "number": 4,
+      "numberInCategory": 4,
+      "answers": [
+        {
+          "text": "Yes",
+          "score": 100
+        },
+        {
+          "text": "Moderately",
+          "score": 50
+        },
+        {
+          "text": "No",
+          "score": 0
+        }
+      ],
+      "answerDesign": "without image",
+      "scoreTag": "happiness",
+      "questionImage": "question-4"
+    },
+    {
+      "screenType": "single-choice",
+      "question": "Imagine your stress as a storm. How has it been in your realm recently?",
+      "category": "About you",
+      "number": 5,
+      "numberInCategory": 5,
+      "answers": [
+        {
+          "text": "https://images.unsplash.com/photo-1601297183305-6df142704ea2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2xlYXIlMjBza3l8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+          "score": 100,
+          "image": "answer-5-1"
+        },
+        {
+          "text": "https://media.istockphoto.com/id/91302202/video/rainbow.jpg?s=640x640&k=20&c=FZlBqJCx_VYOP3j_bGSZEcOPQWOon_5rVlfd2mAJDpI=",
+          "score": 80,
+          "image": "answer-5-2"
+        },
+        {
+          "text": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Supercell_hail_core_near_Stratford%2C_Texas_on_May_18%2C_2023.jpg/800px-Supercell_hail_core_near_Stratford%2C_Texas_on_May_18%2C_2023.jpg",
+          "score": 60,
+          "image": "answer-5-3"
+        },
+        {
+          "text": "https://cdn.britannica.com/62/158162-050-9FDE49B4/thunderstorm-and-lightning.jpg",
+          "score": 40,
+          "image": "answer-5-4"
+        }
+      ],
+      "answerDesign": "with image",
+      "scoreTag": "happiness",
+      "questionImage": "question-5"
+    },
+    {
+      "screenType": "single-choice",
+      "question": "When you are in a conflict with someone, you usually...",
+      "category": "About you",
+      "number": 6,
+      "numberInCategory": 6,
+      "answers": [
+        {
+          "text": "Calmly talk it out",
+          "score": "C"
+        },
+        {
+          "text": "Assertively address it",
+          "score": "D"
+        },
+        {
+          "text": "Consider it carefully",
+          "score": "T"
+        },
+        {
+          "text": "Actively discuss it",
+          "score": "E"
+        }
+      ],
+      "answerDesign": "without image",
+      "scoreTag": "mental_profile",
+      "questionImage": "question-6"
+    },
+    {
+      "number": 7,
+      "screenType": "end_of_section_type_of_screen_1"
+    },
+    {
+      "number": 8,
+      "screenType": "tailored_screen"
+    },
+    {
+      "screenType": "single-choice",
+      "question": "Do you often crave excitement in your life?",
+      "category": "Your energy",
+      "number": 9,
+      "numberInCategory": 1,
+      "answers": [
+        {
+          "text": "Yes, I really miss the thrill",
+          "score": "E, D"
+        },
+        {
+          "text": "Sometimes, yet I like routine",
+          "score": "E, T"
+        },
+        {
+          "text": "No, I like my steady life",
+          "score": "C, T"
+        }
+      ],
+      "answerDesign": "without image",
+      "scoreTag": "mental_profile",
+      "questionImage": "question-7"
+    },
+    {
+      "screenType": "single-choice",
+      "question": "When the going gets tough, do you gather your friends for support?",
+      "category": "Your energy",
+      "number": 10,
+      "numberInCategory": 2,
+      "answers": [
+        {
+          "text": "Always, my friends are my rock",
+          "score": "E, D"
+        },
+        {
+          "text": "Now and then, I seek friends' help",
+          "score": "E, T"
+        },
+        {
+          "text": "Rarely, I try to be independent",
+          "score": "C, D"
+        },
+        {
+          "text": "No, I prefer to manage on my own",
+          "score": "C, T"
+        }
+      ],
+      "answerDesign": "without image",
+      "scoreTag": "mental_profile",
+      "questionImage": "question-8"
+    },
+    {
+      "number": 11,
+      "screenType": "feedback_screen"
+    },
+    {
+      "screenType": "single-choice",
+      "question": "How's your inner fire been recently?",
+      "category": "Your energy",
+      "number": 12,
+      "numberInCategory": 3,
+      "answers": [
+        {
+          "text": "Barely a spark",
+          "score": 40
+        },
+        {
+          "text": "Flickering flame",
+          "score": 60
+        },
+        {
+          "text": "Warm and steady blaze",
+          "score": 80
+        },
+        {
+          "text": "Raging inferno",
+          "score": 100
+        }
+      ],
+      "answerDesign": "without image",
+      "scoreTag": "happiness",
+      "questionImage": "question-9"
+    },
+    {
+      "screenType": "single-choice",
+      "question": "At social gatherings, would you say...",
+      "category": "Your energy",
+      "number": 13,
+      "numberInCategory": 4,
+      "answers": [
+        {
+          "text": "I'm the life of the party",
+          "score": "E"
+        },
+        {
+          "text": "I'm rather a dedicated participant",
+          "score": "C"
+        },
+        {
+          "text": "I don't like social gatherings",
+          "score": "T"
+        },
+        {
+          "text": "I'm the one organizing it",
+          "score": "D"
+        }
+      ],
+      "answerDesign": "without image",
+      "scoreTag": "mental_profile",
+      "questionImage": "question-10"
+    },
+    {
+      "screenType": "multiple-choice",
+      "question": "When faced with a challenge, you...",
+      "category": "Your energy",
+      "number": 14,
+      "numberInCategory": 5,
+      "answers": [
+        {
+          "text": "Don't take no for an answer",
+          "score": "D, E"
+        },
+        {
+          "text": "Focus on finding solutions",
+          "score": "E, C"
+        },
+        {
+          "text": "Deeply analyze an issue",
+          "score": "C, T"
+        },
+        {
+          "text": "Get overwhelmed",
+          "score": "T, D"
+        }
+      ],
+      "answerDesign": "without image",
+      "scoreTag": "mental_profile",
+      "questionImage": "question-11"
+    },
+    {
+      "screenType": "single-choice",
+      "question": "What looks more like your typical days in the past month?",
+      "category": "Your energy",
+      "number": 15,
+      "numberInCategory": 6,
+      "answers": [
+        {
+          "text": "Every day was a Groundhog Day",
+          "score": 40
+        },
+        {
+          "text": "Chores and occasional activities",
+          "score": 60
+        },
+        {
+          "text": "A lot of fun plans and activities",
+          "score": 80
+        },
+        {
+          "text": "Fun and activities almost every day",
+          "score": 100
+        }
+      ],
+      "answerDesign": "without image",
+      "scoreTag": "happiness",
+      "questionImage": "question-12"
+    },
+    {
+      "screenType": "single-choice",
+      "question": "Do you find it effortless to have fun?",
+      "category": "Your energy",
+      "number": 16,
+      "numberInCategory": 7,
+      "answers": [
+        {
+          "text": "Yes!",
+          "score": "E"
+        },
+        {
+          "text": "It depends",
+          "score": "D, C"
+        },
+        {
+          "text": "Not really",
+          "score": "T"
+        }
+      ],
+      "answerDesign": "without image",
+      "scoreTag": "mental_profile",
+      "questionImage": "question-13"
+    },
+    {
+      "screenType": "single-choice",
+      "question": "Do you agree with this statement?<br /><span>\n\"Other people consider me a lively person.\"<span>",
+      "category": "Your energy",
+      "number": 17,
+      "numberInCategory": 8,
+      "answers": [
+        {
+          "text": "Strongly agree",
+          "score": "E"
+        },
+        {
+          "text": "Agree",
+          "score": "D"
+        },
+        {
+          "text": "Somewhat agree",
+          "score": "C"
+        },
+        {
+          "text": "Disagree",
+          "score": "T"
+        }
+      ],
+      "answerDesign": "without image",
+      "scoreTag": "mental_profile",
+      "questionImage": "question-14"
+    },
+    {
+      "number": 18,
+      "screenType": "end_of_section_type_of_screen_2"
+    },
+    {
+      "screenType": "single-choice",
+      "question": "Friends often describe you as...",
+      "category": "Your tendencies",
+      "number": 19,
+      "numberInCategory": 1,
+      "answers": [
+        {
+          "text": "Confident and assertive",
+          "score": "D"
+        },
+        {
+          "text": "Patient and supportive",
+          "score": "C"
+        },
+        {
+          "text": "Lively and spontaneous",
+          "score": "E"
+        },
+        {
+          "text": "Insightful and contemplative",
+          "score": "T"
+        }
+      ],
+      "answerDesign": "without image",
+      "scoreTag": "mental_profile",
+      "questionImage": "question-15"
+    },
+    {
+      "screenType": "single-choice",
+      "question": "How often did you engage in your hobbies in the past month?",
+      "category": "Your tendencies",
+      "number": 20,
+      "numberInCategory": 2,
+      "answers": [
+        {
+          "text": "Not as often as I'd prefer",
+          "score": 40
+        },
+        {
+          "text": "Occasionally",
+          "score": 60
+        },
+        {
+          "text": "Pretty often",
+          "score": 80
+        },
+        {
+          "text": "Regularly",
+          "score": 100
+        }
+      ],
+      "answerDesign": "without image",
+      "scoreTag": "happiness",
+      "questionImage": "question-16"
+    },
+    {
+      "screenType": "single-choice",
+      "question": "Do you agree with this statement?<br /><span>\n\"I can act on impulse or sudden urge.\"</span>",
+      "category": "Your tendencies",
+      "number": 21,
+      "numberInCategory": 3,
+      "answers": [
+        {
+          "text": "Strongly agree",
+          "score": "D"
+        },
+        {
+          "text": "Agree",
+          "score": "E"
+        },
+        {
+          "text": "Somewhat agree",
+          "score": "C, T"
+        },
+        {
+          "text": "Disagree",
+          "score": "C, T"
+        }
+      ],
+      "answerDesign": "without image",
+      "scoreTag": "mental_profile",
+      "questionImage": "question-17"
+    },
+    {
+      "screenType": "single-choice",
+      "question": "When telling the truth, how do you communicate it?",
+      "category": "Your tendencies",
+      "number": 22,
+      "numberInCategory": 4,
+      "answers": [
+        {
+          "text": "I tend to be straightforward",
+          "score": "D"
+        },
+        {
+          "text": "I strive to remain diplomatic",
+          "score": "E"
+        },
+        {
+          "text": "I try to avoid hurting others",
+          "score": "T"
+        },
+        {
+          "text": "I focus on avoiding conflict",
+          "score": "C"
+        }
+      ],
+      "answerDesign": "without image",
+      "scoreTag": "mental_profile",
+      "questionImage": "question-18"
+    },
+    {
+      "screenType": "single-choice",
+      "question": "Is experiencing both physical and mental well-being at once a distant dream for you?",
+      "category": "Your tendencies",
+      "number": 23,
+      "numberInCategory": 5,
+      "answers": [
+        {
+          "text": "I struggle to find balance",
+          "score": 40
+        },
+        {
+          "text": "Complete well-being is a rarity",
+          "score": 60
+        },
+        {
+          "text": "I rarely struggle with my well-being",
+          "score": 80
+        },
+        {
+          "text": "My well-being is at its best now",
+          "score": 100
+        }
+      ],
+      "answerDesign": "without image",
+      "scoreTag": "happiness",
+      "questionImage": "question-19"
+    },
+    {
+      "screenType": "single-choice",
+      "question": "It's nice to daydream sometimes.<br /> How often you get lost in it?",
+      "category": "Your tendencies",
+      "number": 24,
+      "numberInCategory": 6,
+      "answers": [
+        {
+          "text": "My head is always in the clouds",
+          "score": "T, E"
+        },
+        {
+          "text": "It happens sometimes",
+          "score": "C"
+        },
+        {
+          "text": "I'm more of a down-to-earth person",
+          "score": "D"
+        }
+      ],
+      "answerDesign": "without image",
+      "scoreTag": "mental_profile",
+      "questionImage": "question-20"
+    },
+    {
+      "screenType": "single-choice",
+      "question": "How much time can you devote to a personalized plan for better well-being?",
+      "category": "Final Question",
+      "number": 25,
+      "numberInCategory": 1,
+      "answers": [
+        {
+          "text": "2 weeks",
+          "score": ""
+        },
+        {
+          "text": "1 month",
+          "score": ""
+        },
+        {
+          "text": "2-3 months",
+          "score": ""
+        },
+        {
+          "text": "6 months",
+          "score": ""
+        }
+      ],
+      "answerDesign": "without image",
+      "questionImage": "question-21"
+    },
+    {
+      "screenType": "Graph Screen"
+    },
+    {
+      "screenType": "Result calculating screen"
+    }
+  ],
+  "questionsNumber": 21,
+  "categories": [
+    {
+      "category": "About you",
+      "questionsNumber": 6
+    },
+    {
+      "category": "Your energy",
+      "questionsNumber": 8
+    },
+    {
+      "category": "Your tendencies",
+      "questionsNumber": 6
+    },
+    {
+      "category": "Final Question",
+      "questionsNumber": 1
+    }
+  ]
+}

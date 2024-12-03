@@ -1,0 +1,21 @@
+@import 'src/styles/base/mixins';
+
+.container {
+  @include flex-column;
+  max-width: 512px;
+  margin: 0 auto;
+  padding: 32px 16px;
+
+  .title {
+    @include h3;
+    width: 100%;
+    margin-bottom: 32px;
+
+    @media (min-width: 500px) {
+      margin-bottom: 24px;
+    }
+  }
+
+}
+
+

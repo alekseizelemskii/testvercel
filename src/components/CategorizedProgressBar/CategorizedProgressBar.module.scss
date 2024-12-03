@@ -1,0 +1,85 @@
+@import 'src/styles/base/mixins';
+
+.progress {
+  @include flex-row;
+  position: relative;
+  left: 0;
+  right: 0;
+  width: 90vw;
+  max-width: 400px;
+  height: 3px;
+  margin: 40px auto 0 auto;
+  font-size: 11px;
+  font-weight: 500;
+  background-color: var(--secondary-color);
+
+  .progressLine {
+    position: absolute;
+    left: 0;
+    height: 3px;
+    background-color: var(--primary-color);
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+.category {
+  display: block;
+  width: 32%;
+
+  &:last-child {
+    width: 0 !important;
+  }
+
+  &Completed {
+    background-color: var(--primary-color);
+  }
+
+  &Current {
+    position: relative;
+    background: var(--secondary-color);
+  }
+
+  .categoryCircle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 18px;
+    height: 18px;
+    margin-top: -8px;
+    border-radius: 50%;
+
+    &Completed {
+      border: 4px solid var(--primary-color);
+      background-color: #fff;
+    }
+
+    &Current {
+      position: relative;
+      z-index: 10;
+      border: 4px solid var(--primary-color);
+      background-color: #fff;
+    }
+
+    &Next {
+      background-color: var(--secondary-color);
+      color: var(--primary-color);
+    }
+  }
+
+  .categoryName {
+    color: var(--primary-color);
+    position: absolute;
+    bottom: 10px;
+    left: 60%;
+    width: max-content;
+    transform: translate(-52%, 0);
+  }
+
+  .categoryNameLast {
+    position: absolute;
+    bottom: 10px;
+    right: 4px;
+    width: max-content;
+  }
+}
+

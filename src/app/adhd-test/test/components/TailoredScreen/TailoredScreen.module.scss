@@ -1,0 +1,60 @@
+@import 'src/styles/base/mixins';
+
+.container {
+  @include flex-column;
+  @include flex-center;
+  padding: 60px 20px 20px 20px;
+
+  .title {
+    @include h2;
+    margin-top: 32px;
+  }
+
+  .subtitle {
+    @include body2;
+    color: #43434E;
+
+    span {
+      font-weight: 800;
+    }
+  }
+
+}
+
+.bottomContainer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 90%;
+  bottom: 20px;
+
+
+  .progressText {
+    @include body3;
+    color: #95A5F5;
+    margin-bottom: 11px;
+  }
+
+  .progressPercentage {
+    @include body2;
+    font-weight: 800;
+    margin-bottom: 5px;
+  }
+
+  .progressBar {
+    height: 20px;
+    width: 100%;
+    background-color: #ecefff;
+    border-radius: 32px;
+    overflow: hidden;
+
+    .filler {
+      transition: width 0.1s ease-in-out;
+      height: 100%;
+      width: 28%;
+      background-color: #72baf2;
+      border-radius: 32px 0 0 32px;
+    }
+  }
+}

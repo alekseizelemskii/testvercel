@@ -1,0 +1,180 @@
+@import 'src/styles/base/mixins';
+
+.container {
+  @include flex-column;
+  @include flex-center;
+  width: 100%;
+  padding-bottom: 100px;
+  max-width: 480px;
+
+  @media (min-width: 600px) {
+    padding-bottom: 0;
+  }
+
+  //for iphone 6/7/8 plus
+  @media (max-width: 414px) {
+    padding-bottom: 0;
+  }
+
+  //for iphone se
+  @media (max-height: 568px) {
+    padding-bottom: 0;
+  }
+}
+
+.title {
+  @include h4;
+  margin-top: 18px;
+  margin-bottom: 24px;
+  text-align: center;
+
+  //for iphone se
+  @media (max-height: 568px) {
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+}
+
+.image {
+  width: 100%;
+  max-height: 351px;
+
+  //for iphone se
+  @media (max-height: 568px) {
+    height: 214px;
+  }
+}
+
+.section1 {
+  @include flex-column;
+  @include flex-center;
+  position: relative;
+
+  //for iphone 6/7/8 plus
+  @media (max-width: 414px) {
+    margin-bottom: -45px;
+    margin-top: -25px;
+  }
+}
+
+.reviewBlock {
+  @include flex-column;
+  @include flex-center;
+
+  padding: 20px;
+  position: relative;
+  border-radius: 14px;
+  background: #ffffff;
+  width: 80%;
+  min-height: 100px;
+  height: auto;
+  bottom: 60px;
+
+  //for iphone se
+  @media (max-height: 568px) {
+    width: 75%;
+    padding: 15px;
+    min-height: 100px;
+  }
+
+  &Head {
+    @include flex-row;
+    @include flex-space-between;
+    width: 100%;
+    margin-bottom: 14px;
+
+    &Reviewer {
+      @include body1;
+
+      color: #282b56;
+      font-weight: 800;
+      line-height: 20px;
+
+      @media (max-height: 568px) {
+        font-size: 16px;
+      }
+    }
+  }
+
+  &Review {
+    color: #282b56;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21.6px;
+    letter-spacing: -0.5px;
+    text-align: left;
+
+    @media (max-height: 568px) {
+      font-size: 14px;
+    }
+  }
+}
+
+.section2 {
+  @include flex-column;
+  width: 90%;
+  gap: 20px;
+  position: absolute;
+  margin: auto;
+  bottom: 20px;
+
+  @media (min-width: 600px) {
+    position: static;
+    button {
+      width: 70%;
+      margin: auto;
+    }
+  }
+
+  @media (max-width: 414px) {
+    position: static;
+    margin: auto;
+  }
+
+  &Text {
+    @include body3;
+    color: #9294ab;
+    @media (max-height: 568px) {
+      @include body4;
+    }
+  }
+
+  @media (min-width: 600px) {
+    position: static;
+    width: 100%;
+  }
+}
+
+.ratingBlock {
+  @include flex-row;
+  @include flex-center;
+  gap: 5.1px;
+  align-items: center;
+  @media (max-height: 568px) {
+    position: relative;
+    bottom: 2px;
+  }
+
+  img {
+    width: 15.34px;
+    height: 15.34px;
+    @media (max-height: 568px) {
+      width: 13.34px;
+      height: 13.34px;
+    }
+  }
+
+  span {
+    margin-left: 1px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.23px;
+    color: #4d4b56;
+    @media (max-height: 568px) {
+      font-size: 14px;
+    }
+  }
+}

@@ -1,0 +1,705 @@
+{
+  "overallSteps": 22,
+  "quizSteps": 18,
+  "categories": [
+    {
+      "categoryText": "About You",
+      "questionCount": 3
+    },
+    {
+      "categoryText": "Behaviours ",
+      "questionCount": 9
+    },
+    {
+      "categoryText": "Well-being",
+      "questionCount": 5
+    },
+    {
+      "categoryText": "Final Question",
+      "questionCount": 1
+    }
+  ],
+  "steps": [
+    {
+      "answers": [
+        {
+          "answerText": "Yes",
+          "answerScore": 2,
+          "answerImageId": "img_pms_or_period_your_1"
+        },
+        {
+          "answerText": "No",
+          "answerScore": 0,
+          "answerImageId": "img_pms_or_period_your_2"
+        },
+        {
+          "answerText": "Occasionally",
+          "answerScore": 1,
+          "answerImageId": "img_pms_or_period_your_3"
+        }
+      ],
+      "slug": "racing-thoughts-during-period-pms",
+      "number": 1,
+      "screenType": "single_choice_question",
+      "questionText": "Do you experience racing thoughts during your period or PMS?",
+      "numberInCategory": 1,
+      "categoryText": "About You",
+      "conditionTag": "female",
+      "conditionQuestion": "1",
+      "optionType": "withImage"
+    },
+    {
+      "answers": [
+        {
+          "answerText": "Never",
+          "answerScore": 0
+        },
+        {
+          "answerText": "Rarely",
+          "answerScore": 1
+        },
+        {
+          "answerText": "Sometimes",
+          "answerScore": 2
+        },
+        {
+          "answerText": "Often",
+          "answerScore": 3
+        },
+        {
+          "answerText": "All the time",
+          "answerScore": 4
+        }
+      ],
+      "slug": "brain-fog-memory-recall-difficulty",
+      "number": 2,
+      "screenType": "single_choice_question",
+      "questionText": "How often do you experience \"brain fog\" or difficulty with memory and recall?",
+      "numberInCategory": 2,
+      "categoryText": "About You",
+      "conditionTag": "female",
+      "conditionQuestion": "1",
+      "optionType": "withoutImage"
+    },
+    {
+      "answers": [
+        {
+          "answerText": "Never",
+          "answerScore": 0
+        },
+        {
+          "answerText": "Rarely",
+          "answerScore": 1
+        },
+        {
+          "answerText": "Sometimes",
+          "answerScore": 2
+        },
+        {
+          "answerText": "Often",
+          "answerScore": 3
+        },
+        {
+          "answerText": "All the time",
+          "answerScore": 4
+        }
+      ],
+      "slug": "impulsive-behavior-unnecessary-risks",
+      "number": 1,
+      "screenType": "single_choice_question",
+      "questionText": "How often do you take unnecessary risks or engage in impulsive behavior?",
+      "numberInCategory": 1,
+      "categoryText": "About You",
+      "conditionTag": "male",
+      "conditionQuestion": "1",
+      "optionType": "withoutImage"
+    },
+    {
+      "answers": [
+        {
+          "answerText": "It applies <br /> to me",
+          "answerScore": 3,
+          "answerImageId": "img_wrong_others_prove_or_1"
+        },
+        {
+          "answerText": "I feel like <br /> this often",
+          "answerScore": 2,
+          "answerImageId": "img_wrong_others_prove_or_2"
+        },
+        {
+          "answerText": "It rarely <br /> happens to me",
+          "answerScore": 1,
+          "answerImageId": "img_wrong_others_prove_or_3"
+        },
+        {
+          "answerText": "I can't relate <br /> to this",
+          "answerScore": 0,
+          "answerImageId": "img_wrong_others_prove_or_4"
+        }
+      ],
+      "slug": "need-to-be-right-prove-others-wrong",
+      "number": 2,
+      "screenType": "single_choice_statement_question",
+      "questionText": "How do you feel about the following statement?<br /> <span>I always feel the need to be right or prove others wrong</span>",
+      "numberInCategory": 2,
+      "categoryText": "About You",
+      "conditionTag": "male",
+      "conditionQuestion": "1",
+      "optionType": "twoColsWithImage"
+    },
+    {
+      "answers": [
+        {
+          "answerText": "Yes, I heard that a lot",
+          "answerScore": 2
+        },
+        {
+          "answerText": "One or two times",
+          "answerScore": 1
+        },
+        {
+          "answerText": "Never",
+          "answerScore": 0
+        }
+      ],
+      "slug": "great-potential-apply-more-effort",
+      "number": 3,
+      "screenType": "single_choice_question",
+      "questionText": "Have you ever had someone say to you, \"You have great potential. If only you were to apply more effort...?\"",
+      "numberInCategory": 3,
+      "categoryText": "About You",
+      "optionType": "withoutImage"
+    },
+    {
+      "number": 4,
+      "screenType": "end_of_section_type_of_screen_1",
+      "slug": "end-of-section-type-of-screen-1"
+    },
+    {
+      "number": 5,
+      "screenType": "tailored_screen",
+      "slug": "tailored-screen"
+    },
+    {
+      "answers": [
+        {
+          "answerText": "Never",
+          "answerScore": 0
+        },
+        {
+          "answerText": "Rarely",
+          "answerScore": 1
+        },
+        {
+          "answerText": "Sometimes",
+          "answerScore": 2
+        },
+        {
+          "answerText": "Often",
+          "answerScore": 3
+        },
+        {
+          "answerText": "All the time",
+          "answerScore": 4
+        }
+      ],
+      "slug": "procrastinate-tasks-requiring-thought",
+      "number": 6,
+      "screenType": "single_choice_question",
+      "questionText": "How often do you put off or delay the start of a task that requires a lot of thought?",
+      "numberInCategory": 1,
+      "categoryText": "Behaviours ",
+      "optionType": "withoutImage"
+    },
+    {
+      "answers": [
+        {
+          "answerText": "Struggle to unwind and relax",
+          "answerScore": 1,
+          "answerImageId": "img_often_you__time_1"
+        },
+        {
+          "answerText": "Impulsively switch from one activity to another",
+          "answerScore": 1,
+          "answerImageId": "img_often_you__time_2"
+        },
+        {
+          "answerText": "Feel a strong urge to move around",
+          "answerScore": 1,
+          "answerImageId": "img_often_you__time_3"
+        },
+        {
+          "answerText": "Take pleasure in solitary hobbies",
+          "answerScore": 0,
+          "answerImageId": "img_often_you__time_4"
+        },
+        {
+          "answerText": "Feel a sense of calm and relaxation",
+          "answerScore": 0,
+          "answerImageId": "img_often_you__time_5"
+        },
+        {
+          "answerText": "Other",
+          "answerScore": 0,
+          "answerImageId": "img_often_you__time_6"
+        }
+      ],
+      "slug": "spare-time-activities",
+      "number": 7,
+      "screenType": "multiple_choice_question",
+      "questionText": "In your spare time, you often...",
+      "numberInCategory": 2,
+      "categoryText": "Behaviours ",
+      "optionType": "twoLinesWithImage"
+    },
+    {
+      "number": 8,
+      "screenType": "feedback_screen",
+      "slug": "feedback-screen"
+    },
+    {
+      "answers": [
+        {
+          "answerText": "Not challenging at all",
+          "answerScore": 0
+        },
+        {
+          "answerText": "Slightly challenging",
+          "answerScore": 1
+        },
+        {
+          "answerText": "Mildly challenging",
+          "answerScore": 2
+        },
+        {
+          "answerText": "Severely challenging",
+          "answerScore": 3
+        },
+        {
+          "answerText": "Highly challenging",
+          "answerScore": 4
+        }
+      ],
+      "slug": "difficulty-sitting-still-meetings-classes",
+      "number": 9,
+      "screenType": "single_choice_question",
+      "questionText": "How challenging do you find it to sit still, especially when expected (during meetings or classes)?",
+      "numberInCategory": 3,
+      "categoryText": "Behaviours ",
+      "optionType": "withoutImage"
+    },
+    {
+      "answers": [
+        {
+          "answerText": "It applies <br /> to me",
+          "answerScore": 3,
+          "answerImageId": "img_unnecessary_when_even__1"
+        },
+        {
+          "answerText": "I feel like <br /> this often",
+          "answerScore": 2,
+          "answerImageId": "img_unnecessary_when_even__2"
+        },
+        {
+          "answerText": "It rarely <br /> happens to me",
+          "answerScore": 1,
+          "answerImageId": "img_unnecessary_when_even__3"
+        },
+        {
+          "answerText": "I can't relate <br /> to this",
+          "answerScore": 0,
+          "answerImageId": "img_unnecessary_when_even__4"
+        }
+      ],
+      "slug": "urge-to-take-unnecessary-action",
+      "number": 10,
+      "screenType": "single_choice_statement_question",
+      "questionText": "How do you feel about the following statement?<br /> <span>I often feel a strong urge to take action, even when unnecessary.</span>",
+      "numberInCategory": 4,
+      "categoryText": "Behaviours ",
+      "optionType": "twoColsWithImage"
+    },
+    {
+      "answers": [
+        {
+          "answerText": "Never",
+          "answerScore": 0
+        },
+        {
+          "answerText": "Rarely",
+          "answerScore": 1
+        },
+        {
+          "answerText": "Sometimes",
+          "answerScore": 2
+        },
+        {
+          "answerText": "Often",
+          "answerScore": 3
+        },
+        {
+          "answerText": "All the time",
+          "answerScore": 4
+        }
+      ],
+      "slug": "hyperfocus-tune-out-surroundings",
+      "number": 11,
+      "screenType": "single_choice_question",
+      "questionText": "How often do you find yourself so focused that you tune out everything around you?",
+      "numberInCategory": 5,
+      "categoryText": "Behaviours ",
+      "optionType": "withoutImage"
+    },
+    {
+      "answers": [
+        {
+          "answerText": "Yes",
+          "answerScore": 2,
+          "answerImageId": "img_speaking_done_re_they_1"
+        },
+        {
+          "answerText": "No",
+          "answerScore": 0,
+          "answerImageId": "img_speaking_done_re_they_2"
+        },
+        {
+          "answerText": "Sometimes",
+          "answerScore": 1,
+          "answerImageId": "img_speaking_done_re_they_3"
+        }
+      ],
+      "slug": "interrupt-others-finish-sentences",
+      "number": 12,
+      "screenType": "single_choice_question",
+      "questionText": "Do you tend to interrupt others or finish their sentences before they're done speaking?",
+      "numberInCategory": 6,
+      "categoryText": "Behaviours ",
+      "optionType": "withImage"
+    },
+    {
+      "answers": [
+        {
+          "answerText": "Not hard at all",
+          "answerScore": 0
+        },
+        {
+          "answerText": "Somewhat hard",
+          "answerScore": 1
+        },
+        {
+          "answerText": "Mildly hard",
+          "answerScore": 2
+        },
+        {
+          "answerText": "Severely hard",
+          "answerScore": 3
+        },
+        {
+          "answerText": "Extremely hard",
+          "answerScore": 4
+        }
+      ],
+      "slug": "difficulty-carrying-out-plans-with-friends",
+      "number": 13,
+      "screenType": "single_choice_question",
+      "questionText": "How hard do you find it to carry out plans with friends?",
+      "numberInCategory": 7,
+      "categoryText": "Behaviours ",
+      "optionType": "withoutImage"
+    },
+    {
+      "answers": [
+        {
+          "answerText": "Yes",
+          "answerScore": 2,
+          "answerImageId": "img_provoking_anxiety_or_overwhelming_1"
+        },
+        {
+          "answerText": "No",
+          "answerScore": 0,
+          "answerImageId": "img_provoking_anxiety_or_overwhelming_2"
+        },
+        {
+          "answerText": "Sometimes",
+          "answerScore": 1,
+          "answerImageId": "img_provoking_anxiety_or_overwhelming_3"
+        }
+      ],
+      "slug": "avoid-social-situations-anxiety-overwhelm",
+      "number": 14,
+      "screenType": "single_choice_question",
+      "questionText": "Do you tend to avoid social situations because they are overwhelming or anxiety-provoking?",
+      "numberInCategory": 8,
+      "categoryText": "Behaviours ",
+      "optionType": "withImage"
+    },
+    {
+      "answers": [
+        {
+          "answerText": "It applies <br /> to me",
+          "answerScore": 3,
+          "answerImageId": "img_activity_or_conversation_a_1"
+        },
+        {
+          "answerText": "I feel like <br /> this often",
+          "answerScore": 2,
+          "answerImageId": "img_activity_or_conversation_a_2"
+        },
+        {
+          "answerText": "It rarely <br /> happens to me",
+          "answerScore": 1,
+          "answerImageId": "img_activity_or_conversation_a_3"
+        },
+        {
+          "answerText": "I can't relate <br /> to this",
+          "answerScore": 0,
+          "answerImageId": "img_activity_or_conversation_a_4"
+        }
+      ],
+      "slug": "struggle-to-wait-turn-conversations",
+      "number": 15,
+      "screenType": "single_choice_statement_question",
+      "questionText": "How do you feel about the following statement?<br /><span>I often struggle to wait my turn when it's required during a conversation or activity.</span>",
+      "numberInCategory": 9,
+      "categoryText": "Behaviours ",
+      "optionType": "twoColsWithImage"
+    },
+    {
+      "number": 16,
+      "screenType": "end_of_section_type_of_screen_2",
+      "slug": "end-of-section-type-of-screen-2"
+    },
+    {
+      "answers": [
+        {
+          "answerText": "Yes",
+          "answerScore": 0
+        },
+        {
+          "answerText": "No",
+          "answerScore": 0
+        }
+      ],
+      "slug": "trouble-sleeping-sleep-disorders",
+      "number": 17,
+      "screenType": "single_choice_question",
+      "questionText": "Do you have any trouble sleeping or suffer from sleep disorders?",
+      "numberInCategory": 1,
+      "categoryText": "Well-being",
+      "important": true,
+      "optionType": "binary",
+      "questionImageId": "img_disorders_sleep_from_suffer"
+    },
+    {
+      "answers": [
+        {
+          "answerText": "Insomnia",
+          "answerScore": 0,
+          "answerImageId": "img_experienced_ve_you_that_1"
+        },
+        {
+          "answerText": "Restless sleep ",
+          "answerScore": 1,
+          "answerImageId": "img_experienced_ve_you_that_2"
+        },
+        {
+          "answerText": "Sleepwalking",
+          "answerScore": 0,
+          "answerImageId": "img_experienced_ve_you_that_3"
+        },
+        {
+          "answerText": "Nightmares or night terrors",
+          "answerScore": 0,
+          "answerImageId": "img_experienced_ve_you_that_4"
+        },
+        {
+          "answerText": "Sleep talking",
+          "answerScore": 0,
+          "answerImageId": "img_experienced_ve_you_that_5"
+        },
+        {
+          "answerText": "Narcolepsy",
+          "answerScore": 0,
+          "answerImageId": "img_experienced_ve_you_that_6"
+        },
+        {
+          "answerText": "Other",
+          "answerScore": 0,
+          "answerImageId": "img_experienced_ve_you_that_7"
+        }
+      ],
+      "slug": "select-experienced-sleep-disorder",
+      "number": 18,
+      "screenType": "multiple_choice_question",
+      "questionText": "Please select a sleep disorder that you've experienced",
+      "numberInCategory": 2,
+      "categoryText": "Well-being",
+      "conditionTag": "yes",
+      "conditionQuestion": 17,
+      "optionType": "withImage"
+    },
+    {
+      "answers": [
+        {
+          "answerText": "It applies <br /> to me",
+          "answerScore": 0,
+          "answerImageId": "img_sleep_s_night_good_1"
+        },
+        {
+          "answerText": "I feel like <br /> this often",
+          "answerScore": 2,
+          "answerImageId": "img_sleep_s_night_good_2"
+        },
+        {
+          "answerText": "It rarely <br /> happens to me",
+          "answerScore": 1,
+          "answerImageId": "img_sleep_s_night_good_3"
+        },
+        {
+          "answerText": "I can't relate <br /> to this",
+          "answerScore": 0,
+          "answerImageId": "img_sleep_s_night_good_4"
+        }
+      ],
+      "slug": "low-energy-fatigue-after-sleep",
+      "number": 18,
+      "screenType": "single_choice_statement_question",
+      "questionText": "How do you feel about the following statement?<br /> <span>I often struggle with low energy or fatigue, even after a good night's sleep.</span>",
+      "numberInCategory": 2,
+      "categoryText": "Well-being",
+      "conditionTag": "no",
+      "conditionQuestion": 17,
+      "optionType": "twoColsWithImage"
+    },
+    {
+      "answers": [
+        {
+          "answerText": "Depression ",
+          "answerScore": 0,
+          "answerImageId": "img_conditions_health_mental_following_1"
+        },
+        {
+          "answerText": "Anxiety ",
+          "answerScore": 0,
+          "answerImageId": "img_conditions_health_mental_following_2"
+        },
+        {
+          "answerText": "Bipolar Disorder ",
+          "answerScore": 0,
+          "answerImageId": "img_conditions_health_mental_following_3"
+        },
+        {
+          "answerText": "OCD ",
+          "answerScore": 0,
+          "answerImageId": "img_conditions_health_mental_following_4"
+        },
+        {
+          "answerText": "PTSD",
+          "answerScore": 0,
+          "answerImageId": "img_conditions_health_mental_following_5"
+        },
+        {
+          "answerText": "Seasonal Affective Disorder ",
+          "answerScore": 0,
+          "answerImageId": "img_conditions_health_mental_following_6"
+        },
+        {
+          "answerText": "Never had such experiences",
+          "answerScore": 1,
+          "answerImageId": "img_conditions_health_mental_following_7"
+        }
+      ],
+      "slug": "experienced-mental-health-conditions",
+      "number": 19,
+      "screenType": "multiple_choice_question",
+      "questionText": "Have you ever experienced any of the following mental health conditions?",
+      "numberInCategory": 3,
+      "categoryText": "Well-being",
+      "optionType": "withImage"
+    },
+    {
+      "answers": [
+        {
+          "answerText": "Have an unusually high sex drive",
+          "answerScore": 1,
+          "answerImageId": "img_you__months_2_1"
+        },
+        {
+          "answerText": "Have lost all interest in sexual activity",
+          "answerScore": 1,
+          "answerImageId": "img_you__months_2_2"
+        },
+        {
+          "answerText": "Have a normal level of sexual desire",
+          "answerScore": 0,
+          "answerImageId": "img_you__months_2_3"
+        }
+      ],
+      "slug": "sexual-desire-past-2-months",
+      "number": 20,
+      "screenType": "single_choice_question",
+      "questionText": "Regarding your sexual desire over the past 2 months, you...",
+      "numberInCategory": 4,
+      "categoryText": "Well-being",
+      "optionType": "twoLinesWithImage"
+    },
+    {
+      "answers": [
+        {
+          "answerText": "Never",
+          "answerScore": 0
+        },
+        {
+          "answerText": "Rarely",
+          "answerScore": 1
+        },
+        {
+          "answerText": "Sometimes",
+          "answerScore": 2
+        },
+        {
+          "answerText": "Often",
+          "answerScore": 3
+        },
+        {
+          "answerText": "All the time",
+          "answerScore": 4
+        }
+      ],
+      "slug": "restless-or-fidgety-frequency",
+      "number": 21,
+      "screenType": "single_choice_question",
+      "questionText": "How often do you feel restless or fidgety?",
+      "numberInCategory": 5,
+      "categoryText": "Well-being",
+      "optionType": "withoutImage"
+    },
+    {
+      "answers": [
+        {
+          "answerText": "2 weeks",
+          "answerScore": 0
+        },
+        {
+          "answerText": "1 month",
+          "answerScore": 0
+        },
+        {
+          "answerText": "2-3 months",
+          "answerScore": 0
+        },
+        {
+          "answerText": "6 months",
+          "answerScore": 0
+        }
+      ],
+      "slug": "time-for-personalized-wellbeing-plan",
+      "number": 22,
+      "screenType": "single_choice_question",
+      "questionText": "How much time are you willing to dedicate to a personalized plan to improve your well-being?",
+      "numberInCategory": 1,
+      "categoryText": "Final Question",
+      "optionType": "withoutImage"
+    }
+  ]
+}

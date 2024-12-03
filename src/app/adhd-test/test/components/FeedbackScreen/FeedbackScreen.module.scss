@@ -1,0 +1,79 @@
+@import 'src/styles/base/mixins';
+
+
+.container {
+  @include flex-column;
+  @include flex-center;
+
+  padding: 30px 20px;
+
+  .title {
+    @include h1;
+    margin-bottom: 24px;
+  }
+
+  .review {
+    @include flex-column;
+    @include flex-center-vertical;
+    position: relative;
+
+
+    .reviewContainer {
+      position: absolute;
+      top: 200px;
+      width: 90%;
+      border-radius: 14px;
+      padding: 20px;
+      background-color: #ECEFFF;
+
+
+      .reviewHeader {
+        @include flex-row;
+        @include flex-center;
+        margin-bottom: 12px;
+        justify-content: space-between;
+
+        .stars {
+          @include flex-row;
+          @include flex-center;
+          @include body3;
+          gap: 2px;
+
+          span {
+            margin-left: 5px;
+            color: #4D4B56;
+            font-weight: 500;
+          }
+
+        }
+
+        p {
+          @include body1;
+          font-weight: 800;
+        }
+      }
+
+    }
+    .reviewText {
+      @include body2;
+      font-weight: 500;
+      width: 100%;
+    }
+  }
+}
+
+.bottomContainer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 90%;
+  bottom: 20px;
+
+  p {
+    @include body3;
+    color: #95A5F5;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+}

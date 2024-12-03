@@ -1,0 +1,57 @@
+.container {
+  width: 100%;
+}
+
+.buttons {
+  gap: 12px;
+  @media (min-width: 600px) {
+    gap: 16px;
+  }
+}
+
+.questionWrapper {
+  margin-bottom: 20px;
+  margin-top: 35px;
+
+  @media (min-width: 600px) {
+    margin-bottom: 32px;
+  }
+}
+
+.imagesButtons {
+  column-gap: 12px;
+  row-gap: 16px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  @media (min-width: 500px) {
+    max-width: 500px;
+    margin: auto;
+  }
+
+  &Item {
+    overflow: hidden;
+    border-radius: 27px;
+    height: 155px;
+    background: transparent;
+    padding: 0;
+
+    //for iphone se
+    @media (max-height: 569px) {
+      max-height: 140px;
+    }
+
+    &:hover,
+    &:active,
+    &:focus {
+      background: transparent;
+      outline: none;
+      border: 3px solid #8e85d3;
+    }
+
+    @media (min-width: 500px) {
+      border-radius: 38px;
+      background: #8e85d3;
+    }
+  }
+}

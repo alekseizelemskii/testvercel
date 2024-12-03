@@ -1,0 +1,51 @@
+@import 'src/styles/base/mixins';
+
+.container {
+  @include flex-column;
+  @include flex-center;
+  padding: 15px 20px;
+
+  .text {
+    @include body2;
+    width: 100%;
+    text-align: left;
+    color: #95A5F5;
+  }
+  
+  .answers {
+    @include flex-column;
+    @include flex-center;
+    margin-top: 20px;
+    gap: 12px;
+    width: 100%;
+  }
+
+  .button {
+    position: relative;
+    justify-content: start;
+    padding: 30px 12px;
+
+    .startIcon {
+      margin-right: 12px;
+    }
+
+    .endIcon {
+      position: absolute;
+      right: 15px;
+    }
+
+    p {
+      width: 65%;
+      text-align: left;
+    }
+  }
+
+  .primaryButton {
+    position: fixed;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 90%;
+  }
+}

@@ -1,0 +1,65 @@
+@import 'src/styles/base/mixins';
+
+.container {
+  @include flex-column;
+  @include flex-center;
+  width: 100%;
+  padding-top: 15vh;
+  max-width: 420px;
+
+  //for iphone se
+  @media (max-height: 569px) {
+    padding-top: 16px;
+  }
+}
+
+.image {
+  width: 188px;
+  height: 150px;
+  margin-bottom: 32px;
+}
+
+.text {
+  @include h3;
+  margin-bottom: 12px;
+  line-height: 27.12px;
+
+  span {
+    font-weight: 800;
+    color: #8e85d3;
+  }
+}
+
+.progressContainer {
+  @include flex-column;
+  gap: 12px;
+  width: 90%;
+  position: fixed;
+  bottom: 25px;
+  max-width: 420px;
+
+  p {
+    @include body3;
+    color: #768AED;
+  }
+
+  @media (min-width: 600px) {
+    width: 100%;
+    position: static;
+    margin-top: 110px;
+  }
+}
+
+.btn {
+  position: fixed;
+  bottom: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+
+  @media (min-width: 600px) {
+    position: static;
+    margin: 80px auto;
+    transform: none;
+  }
+}

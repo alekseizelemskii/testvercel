@@ -1,0 +1,14 @@
+@import 'src/styles/base/mixins';
+
+
+.container {
+  width: 100%;
+}
+.question {
+  @include h2;
+  text-align: left;
+
+  span {
+    color: #5B71E1;
+  }
+}

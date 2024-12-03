@@ -1,0 +1,39 @@
+@import 'src/styles/base/mixins';
+
+.wrapper {
+  @include flex-column;
+  position: relative;
+  width: 100vw;
+  left: -16px;
+  @media (min-width: 500px) {
+    margin-top: 0;
+    max-width: 512px;
+  }
+}
+
+.review {
+  @include flex-column;
+  @include flex-center;
+
+  width: 100%;
+  height: auto;
+  background-color: #ffffff;
+  border-radius: 14px;
+  padding: 20px;
+  margin-bottom: 38px;
+  @media (min-width: 500px) {
+    margin: 0 auto;
+    margin-bottom: 48px;
+  }
+
+  &Text {
+    @include body3;
+    font-weight: 500;
+    margin-top: 8px;
+  }
+
+  &Name {
+    @include body4;
+    margin-top: 12px;
+  }
+}

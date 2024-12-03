@@ -1,0 +1,56 @@
+@import 'src/styles/base/mixins';
+
+.title {
+  @include body1;
+  font-weight: 800;
+
+  padding: 0;
+
+  @media (min-width: 600px) {
+    font-size: 18px;
+    width: 85%;
+    margin: auto;
+  }
+}
+
+.question {
+  @include body2;
+  font-weight: 500;
+
+  padding: 0;
+  margin-top: 12px;
+  @media (min-width: 600px) {
+    margin-bottom: 12px;
+  }
+}
+
+.buttons {
+  @include flex-center-horizontal;
+
+  width: 100%;
+  gap: 10px;
+
+  button {
+    @include body3;
+    font-weight: 800;
+
+    width: 100%;
+    border-radius: 12px;
+    background: #fff;
+    border: 1px solid #f2f4ff;
+    color: #282b56;
+    line-height: normal;
+    height: 48px;
+
+    &:hover,
+    &:active,
+    &:focus {
+      outline: none;
+      background: #f2f4ff;
+    }
+  }
+
+  .focusButton {
+    background: #f2f4ff;
+  }
+}

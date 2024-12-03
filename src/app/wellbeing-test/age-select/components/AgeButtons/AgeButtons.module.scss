@@ -1,0 +1,16 @@
+.container {
+    width: 100%;
+    display: grid;
+    gap: 12px 8px;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 4px;
+
+    //for iphone se
+    @media (max-height: 568px) {
+      margin-top: 12px;
+      gap: 6px 6px;
+      button {
+        height: 40px;
+      }
+    }
+}

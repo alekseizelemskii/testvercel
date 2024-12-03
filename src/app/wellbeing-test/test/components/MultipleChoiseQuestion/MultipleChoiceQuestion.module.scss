@@ -1,0 +1,45 @@
+.container {
+  width: 100%;
+  padding-bottom: 80px;
+
+  // for iphone se
+  @media (max-height: 569px) {
+    padding-bottom: 70px;
+  }
+
+  @media (min-width: 600px) {
+    padding-bottom: 20px;
+  }
+}
+
+.questionWrapper {
+  margin-top: 35px;
+  margin-bottom: 12px;
+}
+
+.buttons {
+  gap: 12px;
+  margin-top: 20px;
+  @media (min-width: 600px) {
+    gap: 16px;
+  }
+}
+
+.buttonBox {
+  width: 90%;
+  position: fixed;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  align-items: center;
+  @media (min-width: 600px) {
+    position: static;
+    padding-bottom: 8px;
+    width: 80%;
+  }
+
+  button {
+    width: 100%;
+  }
+}

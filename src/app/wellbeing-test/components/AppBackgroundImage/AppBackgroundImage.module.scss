@@ -1,0 +1,90 @@
+.bottom-left {
+  position: fixed;
+  width: 100%;
+  bottom: -10%;
+  left: -25%;
+  z-index: -10;
+  animation-name: appear;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  @media (min-width: 600px) {
+    width: 35vw;
+    left: 15%;
+    bottom: -20%;
+  }
+}
+
+.bottom-right {
+  position: fixed;
+  width: 100%;
+  bottom: -15%;
+  right: -40%;
+  z-index: -20;
+  animation-name: appear;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  @media (min-width: 600px) {
+    width: 35vw;
+    left: 55%;
+    top: -25%;
+  }
+}
+
+.top-right {
+  position: fixed;
+  width: 100%;
+  top: -15vh;
+  left: 15vh;
+  z-index: -20;
+  animation-name: appear;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+
+  @media (min-width: 600px) {
+    width: 35vw;
+    left: 55%;
+    top: -20%;
+  }
+}
+
+.top-right-desk {
+  position: fixed;
+  width: 100%;
+  top: -15vh;
+  left: 15vh;
+  z-index: -20;
+  animation-name: appear;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+
+  @media (min-width: 600px) {
+    width: 35vw;
+    left: 75%;
+    top: 25%;
+  }
+}
+
+.top-left {
+  z-index: -20;
+  position: fixed;
+  width: 100%;
+  top: -5vh;
+  right: 15vh;
+  animation-name: appear;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  @media (min-width: 600px) {
+    width: 35vw;
+    left: -10%;
+    top: 5%;
+  }
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}

@@ -1,0 +1,68 @@
+.button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 68px;
+  padding: 12px 16px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: none;
+  text-align: left;
+  color: #282b56;
+  background-color: #fff;
+  border-radius: 12px;
+
+  p {
+    width: 85%;
+  }
+
+  // for iphone se
+  @media (max-height: 569px) {
+    height: 46px;
+    font-size: 16px;
+  }
+
+  &:hover {
+    background: #fff;
+  }
+
+  &.active {
+    background: #8e85d3;
+    color: #ffffff !important;
+    font-weight: 800;
+
+    &:focus,
+    &:active,
+    &:hover {
+      color: #ffffff !important;
+      background: #8e85d3;
+    }
+  }
+
+  // for desktop
+  @media (min-width: 600px) {
+    p {
+      width: 80%;
+    }
+    &:hover {
+      background: #8e85d3;
+      color: white;
+    }
+    &:focus {
+      &:hover {
+        color: #282b56;
+      }
+
+      background: white;
+      font-weight: 500;
+    }
+    &.active {
+      &:hover {
+        color: white !important;
+        opacity: 0.9;
+      }
+    }
+  }
+}

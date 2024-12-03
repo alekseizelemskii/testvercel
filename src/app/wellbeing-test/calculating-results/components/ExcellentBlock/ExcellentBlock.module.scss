@@ -1,0 +1,40 @@
+.container {
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.block {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.stars {
+  width: 96px;
+}
+
+.title {
+  color: #282b56;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 120%;
+  letter-spacing: -0.5px;
+}
+
+.text {
+  margin-top: 8px;
+  width: 100%;
+  text-align: center;
+  color: #282b56;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: -0.5px;
+
+  > span {
+    font-weight: 800;
+  }
+}

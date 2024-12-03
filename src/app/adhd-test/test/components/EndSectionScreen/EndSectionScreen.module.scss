@@ -1,0 +1,32 @@
+@import 'src/styles/base/mixins';
+
+.container {
+  @include flex-column;
+  align-items: start;
+  padding: 40px 12px;
+
+  p {
+    text-align: left;
+  }
+
+  .title {
+    @include h2;
+    margin-top: 20px;
+    color: #FFFFFF;
+  }
+
+  .subtitle {
+    @include body2;
+    margin-top: 8px;
+    color: #DCD6D6;
+  }
+}
+
+.button {
+  max-width: unset;
+  width: 90%;
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}

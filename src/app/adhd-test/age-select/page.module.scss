@@ -1,0 +1,12 @@
+@import 'src/styles/base/mixins';
+
+.container {
+  @include flex-column;
+  @include flex-center;
+  padding: 34px 16px 20px 16px;
+  gap: 20px;
+}
+
+.title {
+  @include h2;
+}

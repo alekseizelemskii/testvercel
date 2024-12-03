@@ -1,0 +1,7 @@
+@import 'src/styles/base/mixins';
+
+.container {
+  @include flex-column;
+  gap: 12px;
+  width: 100%;
+}

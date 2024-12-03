@@ -1,0 +1,48 @@
+@import 'src/styles/base/mixins';
+
+
+.logo {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  // Default for desktop
+  background-image: url('/images/breeze_logo_img.webp');
+
+  // For mobile
+  @media (max-width: 768px) {
+    background-image: url('/images/breeze_icon.webp');
+  }
+}
+
+.test {
+  @include body1;
+
+}
+
+.container {
+  padding: 60px 16px 0 16px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title {
+  @include h2;
+  margin-top: 20px;
+  width: 65%;
+}
+.subtitle {
+  @include body2;
+  margin: 12px 0 40px 0;
+  width: 75%;
+  line-height: 24px;
+  font-weight: 300;
+
+}
